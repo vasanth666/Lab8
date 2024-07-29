@@ -1,0 +1,75 @@
+.ToDoApp {
+  text-align: center;
+  margin: 20px;
+  font-family: Arial, sans-serif;
+  background: #f0f8ff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+  color: #4b0082;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  padding: 10px;
+  font-size: 16px;
+  border: 2px solid #8a2be2;
+  border-radius: 5px;
+  outline: none;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 15px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  opacity: 0.9;
+}
+
+button:focus {
+  outline: none;
+}
+
+button.add-button { background: #8a2be2; color: #fff; }
+button.save-button { background: #32cd32; color: #fff; }
+button.edit-button { background: #ffa500; color: #fff; }
+button.delete-button { background: #ff4500; color: #fff; }
+
+ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+li {
+  background: #e6e6fa;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 1 0 30%;
+  max-width: 30%;
+  box-sizing: border-box;
+}
+
+li div {
+  display: flex;
+  align-items: center;
+}
+
+li div input[type="text"] {
+  margin-right: 10px;
+  flex: 1;
+}
